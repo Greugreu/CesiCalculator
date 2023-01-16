@@ -4,7 +4,7 @@ namespace SommeApi.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class CalculatorController : ControllerBase
+public class SommeController : ControllerBase
 {
     [HttpGet]
     public ActionResult<int> Add(int a, int b)
